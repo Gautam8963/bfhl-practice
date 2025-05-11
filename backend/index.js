@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const { isPrime, getMimeAndSize } = require("./utils");
-const cors = require("cors"); // import cors
+const cors = require("cors");
 
 
 const app = express();
