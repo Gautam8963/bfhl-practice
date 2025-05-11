@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = "https://bfhl-practice.onrender.com";
+const API = "http://localhost:3001/bfhl";
 
 export default function App() {
   const [input, setInput] = useState("");
