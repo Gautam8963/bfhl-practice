@@ -36,9 +36,9 @@ app.post("/bfhl", (req, res) => {
 
   const response = {
     is_success: true,
-    user_id: "your_name_ddmmyyyy",
-    email: "your_email@college.edu",
-    roll_number: "CS2025001",
+    user_id: "gautam_dhodi_02022005",
+    email: "gautamdhodi220549@acropolis.in",
+    roll_number: "0827CS221095",
     numbers,
     alphabets,
     highest_lowercase_alphabet: highestLower ? [highestLower] : [],
